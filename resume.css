@@ -1,0 +1,71 @@
+* {
+	font-family: 'Work Sans', sans-serif;	
+	padding: 0;
+	margin: 0;
+	
+}
+body {
+	
+	height: 100vh;
+	background-image: url('./bg1.jpg');
+	background-size: cover;
+	background-position: center center;
+
+}
+h1 {
+	text-align: center;
+
+}
+h2 {font-weight: 10;
+}
+h3 {text-align: center;}
+span {float: right;}
+
+.photo {
+	display: flex;
+	justify-content: center;
+
+	
+
+}
+.img {
+	flex-wrap: wrap;
+	margin:0;
+	height: 30vh;
+	width: 300px;
+	
+	background-size: cover;
+	background-position: center center;
+}
+
+div {
+	margin: 50px;
+}
+
+.skills {
+	display: flex;
+}
+
+.a {
+	justify-content: center;
+	width: 50vw;
+}
+
+.bar{
+	display: flex;
+	margin-left: auto;
+	height: 2em;
+	width: 10vw;
+
+}
+
+
+li {
+	list-style-type: none;
+	flex-direction: row;
+	
+}
+a {text-decoration: none;
+height: 10vh;
+	width: 20vw;
+	}
